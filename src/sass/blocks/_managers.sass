@@ -1,0 +1,42 @@
+.managers
+    position: relative
+    width: 100%
+    height: 350px
+    z-index: 1
+    &__item
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        &-img
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 100px
+            height: 100px
+            border: 2px solid #ffffff
+            border-radius: 100%
+            margin: 60px auto 20px auto
+        &-title
+            font-size: 26px
+            line-height: 23px
+            font-weight: 700
+            color: #ffffff
+        &-descr
+            text-align: center
+            padding-top: 20px
+            font-size: 19px
+            line-height: 27px
+            font-weight: 300
+            color: #ffffff
+.managers:before
+    position: absolute
+    content: ''
+    z-index: -1
+    top: 0
+    left: 0
+    opacity: 0.8
+    background: url('../img/chinese-lamps.jpg') no-repeat center / cover
+    width: 100%
+    height: 100%
+    background-position-y: 90%
