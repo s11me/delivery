@@ -1,3 +1,4 @@
+
 .scheme
     background-color: #f3f3f3
     &__title
@@ -9,12 +10,17 @@
         grid-auto-rows: auto
         column-gap: 40px
         row-gap: 20px
-        justify-content: center
         padding-bottom: 45px
+        justify-content: space-around
     &__item
         &-img
             display: block
             margin: 0 auto
+            &:hover
+                animation-name: icons
+                animation-duration: 3s
+                animation-timing-function: linear
+                animation-iteration-count: infinite
         &-title
             padding-top: 10px
             font-size: 16px
