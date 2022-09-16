@@ -1,0 +1,23 @@
+.map
+    position: relative
+    &__info
+        position: absolute
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        left: 50%
+        transform: translateX(-50%)
+        width: 350px
+        min-height: 130px
+        background-color: #d4d1d1
+        top: 0
+        &_addr
+            font-size: 16px
+            font-weight: 300
+            color: #3a3a3a
+        &_phone, &_site
+            color: $main-color
+            font-size: 18px
+            font-weight: 300
+            text-decoration: underline
