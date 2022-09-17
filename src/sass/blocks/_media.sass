@@ -1,0 +1,185 @@
+@media (max-width: 1200px)
+    .container
+        max-width: 960px
+    .promo
+        &__logo
+            img
+                width: 80px
+                margin-right: 10px
+        &__button
+            width: 125px
+        .globalopt
+            font-size: 22px
+        .maintitle
+            font-size: 66px
+        .subtitle
+            font-size: 38px
+        &_phone
+            font-size: 16px
+        .divider
+            width: 840px
+    .advantages
+        &__items
+            grid-template-columns: repeat(2, 450px)
+        &__item
+            grid-template-columns: 64px 350px
+    .pageup
+        display: none
+    .ourwork
+        &__items
+            grid-template-columns: repeat(3, 300px)
+            justify-content: space-between
+        &__item
+            img
+                width: 300px
+                object-fit: cover
+    .price
+        &__block
+            grid-template-columns: repeat(auto-fit, 267px)
+            justify-content: space-around
+    .footer
+        &__contacts
+            margin-left: 0
+        .divider
+            width: 940px
+@media (max-width: 992px)
+    .container
+        max-width: 720px
+    .title
+        font-size: 24px
+    .promo
+        .globalopt
+            font-size: 18px
+        .maintitle
+            font-size: 58px
+        .subtitle
+            font-size: 34px
+        &__contacts
+            display: none
+        &_phone
+            display: none
+        &__button
+            display: none
+        .divider
+            width: 600px
+        &__block
+            grid-template-columns: repeat(4, 180px)
+        .second_button
+            margin: 25px auto 50px auto
+    .advantages
+        &__item
+            column-gap: 10px
+            grid-template-columns: 64px 265px
+            grid-template-rows: minmax(30px, auto) minmax(45px, auto) 
+        &__items
+            grid-template-columns: repeat(2, 350px)
+    .ourwork
+        &__items
+            grid-template-columns: repeat(auto-fit, 340px)
+            row-gap: 20px
+        &__item
+            img
+                width: 340px
+        &__subtitle
+            font-size: 18px
+            line-height: 20px
+    .consultation
+        &__form
+            grid-template: 166px / repeat(3, 230px)
+            input
+                width: 230px
+    .carousel
+        margin-bottom: 40px
+        &__subtitle
+            font-size: 19px
+            line-height: 20px
+        .carousel-item
+            h5
+                font-size: 18px
+            p
+                margin: 0
+                font-size: 14px
+    .question
+        &__form
+            width: 720px
+            input
+                width: 230px
+            textarea
+                width: 700px
+    .footer
+        &__top
+            column-gap: 12px
+        .divider
+            width: 700px
+@media (max-width: 768px)
+    .container
+        max-width: 540px
+    .title
+        font-size: 20px
+    .promo
+        .globalopt
+            font-size: 16px
+        .maintitle
+            font-size: 42px
+        .subtitle
+            font-size: 26px
+        .divider
+            width: 520px
+        &__block
+            grid-template-columns: repeat(auto-fit, 250px)
+        .second_button
+            width: 200px
+            height: 50px
+            margin: 40px auto 30px auto
+        &__logo
+            display: none
+        &__nav
+            &-list
+                width: 500px
+            &-link
+                font-size: 12px
+    .advantages
+        &__items
+            grid-template-columns: 540px
+        &__item
+            grid-template-columns: 64px 450px
+    .ourwork
+        &__items
+            justify-content: center
+            grid-template-columns: 420px
+        &__item
+            img
+                width: 420px
+    .price
+        &__subtitle
+            padding: 18px 0 30px 0
+            font-size: 18px
+            line-height: 20px
+        &__block
+            column-gap: 5px
+            row-gap: 20px
+    .consultation
+        &__form
+            grid-template: repeat(3, 70px) / 300px
+            height: 320px
+            input
+                margin-top: 110px
+                width: 300px
+        &__img
+            top: -16%
+    .question
+        &__form
+            width: 540px
+            input
+                width: 170px
+            textarea
+                width: 510px
+    .footer
+        .divider
+            width: 510px
+        .button
+            width: 120px
+            font-size: 11px
+@media (max-width: 576px)
+    .container
+        width: 100%
